@@ -6,11 +6,11 @@
 #    By: bde-luce <bde-luce@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/31 10:35:15 by bde-luce          #+#    #+#              #
-#    Updated: 2025/10/31 10:36:14 by bde-luce         ###   ########.fr        #
+#    Updated: 2025/12/09 14:42:16 by bde-luce         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = HarlFilter
+NAME = harlFilter
 
 SRC_DIR = src
 SRC = $(SRC_DIR)/Harl.cpp $(SRC_DIR)/main.cpp
