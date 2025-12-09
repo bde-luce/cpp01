@@ -6,7 +6,7 @@
 /*   By: bde-luce <bde-luce@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 15:30:44 by bde-luce          #+#    #+#             */
-/*   Updated: 2025/12/08 16:17:43 by bde-luce         ###   ########.fr       */
+/*   Updated: 2025/12/09 13:22:15 by bde-luce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ void	do_replacement(std :: string s1, std :: string s2, std :: ifstream& in, std
 			i = p + s1.size();
 			line = line.substr(i, line.size() - i);
 			p = line.find(s1);
+			i = 0;
 		}
 		out << line << "\n";
 	}
